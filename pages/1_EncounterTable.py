@@ -63,7 +63,7 @@ def addEntry() -> None:
 def loadFile() -> bool: #returns bool to decide whether success message pops up
     filepath = r'tables\\' + st.session_state.file #file = None is handled in the save button
     try:
-        st.session_state.e_table.read_csv(filepath)
+        st.session_state.e_table = pd.read_csv(filepath)
     except IOError as e:
         print(f'Error loading the file: {e}')
     return True

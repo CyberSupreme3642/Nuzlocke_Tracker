@@ -1,0 +1,3 @@
+Pokemon,Encounter Location,Ability,Nature,HP,ATK,DEF,SPATK,SPDEF,SPD
+Oshawott,Starter,Torrent,Hardy (Neutral),0,0,0,0,0,0
+Mareep,Flocessy Ranch,Static,Quiet (+SPAtk -Spd),12,0,5,31,25,13
