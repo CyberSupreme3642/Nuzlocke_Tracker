@@ -4,6 +4,8 @@ import streamlit as st
 import os
 
 
+#Devnotes: Add pokemon api for pokemon info
+
 
 #variables; saved between reruns. allows code to be written flexibly
 col_labels = np.array(['Pokemon', 'Encounter Location', 'Ability', 'Nature', 'HP', 'ATK', 'DEF', 'SPATK', 'SPDEF', 'SPD'])
@@ -83,7 +85,7 @@ def saveFile() -> bool: #returns bool to decide whether success message pops up
 file = st.container(horizontal=True, horizontal_alignment='center')
 csvs = [None] + csvs #adds None as first option of selectbox
 st.session_state.file = file.selectbox('Load File', csvs, format_func=lambda x: '--Select a file --' if x is None else x)
-if file.button('Load'): #throws an error, needs fixed.
+if file.button('Load'):
     if st.session_state.file is not None:
         loadFile()
 if file.button('Save'):
