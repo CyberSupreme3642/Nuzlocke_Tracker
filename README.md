@@ -13,4 +13,4 @@ Analytics page to be added soon.
 
 
 The project is open source, so feel free to take the project and customize it to your needs and wants. Want to make adding an encounter a dropdown of all the Pokemon? Go ahead. Ability to link with another to run a soul link? Go nuts. This was a project for me to learn
-the Python frontend Streamlits, Pandas and my overall Python skillset.
+the Python frontend Streamlits, Pandas and my overall Python skillset. This is my first public project, so any constructive feedback is welcome :)
